@@ -57,3 +57,26 @@ body{
     margin-bottom: 5px;
     color: #fff;
 }
+@media screen and (max-width: 767px) {
+    .relogio {
+      flex-direction: column;
+      height: auto;
+      width: 80%;
+      max-width: 300px;
+    }
+  
+    .relogio div {
+      width: 60%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .main-container {
+      margin-top: 120px;
+      margin-bottom: 20px;
+      flex-direction: column;
+      height: auto;
+      width: 80%;
+      max-width: 300px;
+    }
+}
