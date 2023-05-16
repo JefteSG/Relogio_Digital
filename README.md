@@ -38,10 +38,14 @@
   </ol>
 
   <p>O relógio digital será exibido com a hora atual e o fundo mudando conforme a hora do dia.</p>
+  
 
   <h2>Personalização</h2>
   <p>Caso queira personalizar o projeto, você pode alterar o estilo do relógio no arquivo <code>assent/css/styles.css</code>. Além disso, é possível modificar as cores de fundo definidas no JavaScript no arquivo <code>assent/js/script.js</code>. Sinta-se à vontade para fazer as alterações desejadas.</p>
 
   <h2>Contribuição</h2>
   <p>Contribuições são bem-vindas! Se você encontrou algum problema no projeto ou deseja adicionar novas funcionalidades, fique à vontade para abrir uma issue ou enviar um pull request.</p>
+  <h2>Link</h2>
+  <p>Link do site rodando na netlify:</p>
+  <link> https://dashing-jalebi-94839d.netlify.app/ </link>
 
