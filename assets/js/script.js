@@ -24,7 +24,7 @@ const relogio = setInterval(function time() {
 
     if (hr >= 12 && hr < 18) {
      
-        document.body.style.background = "linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%)";
+        document.body.style.background = "linear-gradient(147deg, #FFE53B 0%, #FF2525 74%)";
       } else if (hr >= 19 && hr < 23) {
         document.body.style.background = "linear-gradient(201deg, rgba(2,0,36,1) 0%, rgba(18,53,87,1) 78%, rgba(7,3,55,1) 100%)";
         
