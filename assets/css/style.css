@@ -85,14 +85,14 @@ body img{
   top: 50%;
 }
 .cloud:nth-child(1) {
-  left: 0;
+  left: 10%;
   top: 50px;
   animation: cloudAnimation 60s linear infinite;
 }
 
 .cloud:nth-child(2) {
-  left: 20%;
-  top: 200px;
+  left: 30%;
+  top: 150px;
   animation: cloudAnimation 60s linear infinite;
 }
 
@@ -104,7 +104,7 @@ body img{
 
 .cloud:nth-child(4) {
   left: 60%;
-  top: 350px;
+  top: 250px;
   animation: cloudAnimation 60s linear infinite;
 }
 
@@ -124,8 +124,11 @@ body img{
   0% {
     transform: translateX(0%);
   }
+  50%{
+    transform: translateX(-200%)
+  }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
 }
 @media screen and (max-width: 1115px){
