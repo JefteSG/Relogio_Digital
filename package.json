@@ -1,0 +1,26 @@
+{
+  "name": "relogio-widget",
+  "version": "1.0.0",
+  "description": "Um widget de relógio digital com HTML e CSS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.exemplo.relogio",
+    "productName": "RelogioWidget",
+    "files": [
+      "**/*"
+    ],
+    "linux": {
+      "target": "deb",
+      "category": "Utility"
+    }
+  }
+}
